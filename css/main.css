@@ -455,6 +455,6 @@ section.beating-heart h2::after {
 
 .slick-prev:hover,
 .slick-next:hover {
-    color: black;
+    background: black;
 }
 /* Slider end */
