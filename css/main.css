@@ -414,6 +414,7 @@ section.beating-heart h2::after {
     35% {
         transform: scale(1.25);
     }
+    
     100% {
         transform: scale(1);
     }
