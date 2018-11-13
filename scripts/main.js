@@ -7,7 +7,7 @@ $(document).ready(function(){
     });
 
     //smooth scroll
-    $(".menu li a[href^='#']").on("clock", function(e){
+    $(".menu li a[href^='#']").on("click", function(e){
         e.preventDefault();
         var target = $(this.hash);
         if (target.length) {
