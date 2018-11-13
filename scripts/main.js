@@ -6,6 +6,17 @@ $(document).ready(function(){
         $("body").toggleClass("scroll", (scrollFromTop >350));
     });
 
+    //smooth scroll
+    $(".menu li a[href^='#']").on("clock", function(e){
+        e.preventDefault();
+        var target = $(this.hash);
+        if (target.length) {
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top -60
+            }, 1000);
+        }
+    });
+
     //masonry
     $(".grid").masonry({
         //options
