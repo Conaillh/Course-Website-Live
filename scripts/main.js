@@ -17,7 +17,6 @@ $(document).ready(function(){
 
     //Slick Slider
     $(".slider").slick({
-        dots: true,
         arrows: true,
         centerMode: true,
         slidesToShow: 3,
