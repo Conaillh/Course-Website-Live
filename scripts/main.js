@@ -38,13 +38,13 @@ $(document).ready(function(){
     //responsive menu start
     var body = $('body');
     var menuTrigger = $('.js-menu-trigger');
-    var mainOverly = $('.js-main-overlay');
+    var mainOverlay = $('.js-main-overlay');
 
     menuTrigger.on('click', function(){
         body.addClass('menu-is-active');
     });
     
-    maiinOverlay.on('click', function(){
+    mainOverlay.on('click', function(){
         body.removeClass('menu-is-active');
     });
 
