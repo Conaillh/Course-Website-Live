@@ -503,14 +503,22 @@ footer h1 {
     }
 
     .ul#scene li.layer-name {
+        text-align: center;
         font-size: 22px;
-        line-height: 27px;
-    }
+        line-height:27px;
+        text-transform: uppercase;
+        color: white;
+        width: 100%;
+        }
 
     .ul#scene li.layer-title {
+        text-align: center;
         font-size: 20px;
         line-height: 25px;
         margin-top: 40px;
+        text-transform: uppercase;
+        color: white;
+        width: 100%;
     }
 
     .btn {
