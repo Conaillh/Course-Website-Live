@@ -487,6 +487,17 @@ footer h1 {
 /* Footer end*/
 
 /* Responsive menu start*/
+@media only screen and (max-width: 1160px) {
+    section.beating-heart span {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .heart {
+        width: 50px;
+        line-height: 0 20px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .menu-trigger {
         background: url('../images/hamburger-icon.svg') no-repeat center / cover;
