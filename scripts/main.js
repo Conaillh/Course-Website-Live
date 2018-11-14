@@ -32,7 +32,7 @@ $(document).ready(function(){
         centerMode: true,
         slidesToShow: 3,
         prevArrow: "<button type='button' class='slick-prev'>Previous</button>",
-        nextArrow: "<button type='button' class='slick-next'>Next</button>"
+        nextArrow: "<button type='button' class='slick-next'>Next</button>",
         responsive: [
             {
                 breakpoint: 990,
