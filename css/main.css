@@ -502,12 +502,12 @@ footer h1 {
 
     }
 
-    .ul#scene li.name {
+    .ul#scene li.layer-name {
         font-size: 22px;
         line-height: 27px;
     }
 
-    .ul#scene li.title {
+    .ul#scene li.layer-title {
         font-size: 20px;
         line-height: 25px;
         margin-top: 40px;
