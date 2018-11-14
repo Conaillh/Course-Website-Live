@@ -35,4 +35,20 @@ $(document).ready(function(){
         nextArrow: "<button type='button' class='slick-next'>Next</button>"
     });
 
+    //responsive menu start
+    var body = $('body');
+    var menuTrigger = $('.js-menu-trigger');
+    var mainOverly = $('.js-main-overlay');
+
+    menuTrigger.on('click', function(){
+        body.addClass('menu-is-active');
+    });
+    
+    maiinOverlay.on('click', function(){
+        body.removeClass('menu-is-active');
+    });
+
+    $('.menu li a').on('click', function(){
+        $('body').removeClass("menu-is-active");
+    });
 });
