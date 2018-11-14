@@ -220,7 +220,7 @@ header.sticky {
     left: 0;
     right: 0;
     background: rgba(0,0,0,0.85);
-    transform: translateY(-500%);
+    transform: translateY(-200%);
     transition: 0.2s;
     z-index: 5;                                                                 /* LAYERS. think about in photoshop. 5 = 5th layer */
 }
@@ -231,7 +231,7 @@ body.scroll header.sticky {
 
 .nav-wrapper {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     padding: 7px 0;                                                              /* padding: (top+bottom) (left+right)*/
     display: flex;
@@ -300,10 +300,6 @@ ul#scene {
     margin-top: 150px;
 }
 
-.btn {
-    margin-top: 150px;
-}
-
 .portfolio-btn,
 .contact-btn {
     margin: o auto;
@@ -313,13 +309,13 @@ ul#scene {
     background: transparent;
     color: white;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .portfolio-btn:hover,
 .contact-btn:hover {
     background: white;
     color: black;
-    transition: 0.3s;
 }
 
 .portfolio-btn {
@@ -574,6 +570,10 @@ footer h1 {
 
     body.menu-is-active .menu-trigger {
         display: none;
+    }
+
+    @media only screen and (max-width: 1160px) {
+
     }
 }
 /* Responsive menu end*/
