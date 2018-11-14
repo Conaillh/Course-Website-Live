@@ -202,7 +202,9 @@ ol li {
 
 .wrapper {
     max-width: 1100px;
+    width: 200%;
     margin: 0 auto;
+    align-content: center;
 }
 
 /* Navigation bar + header style start */
@@ -499,26 +501,17 @@ footer h1 {
 
 @media only screen and (max-width: 560px) {                                  /* laptop screens smaller than 1160px */
     .wrapper {
-
+        
+    }
+    .ul#scene li.name {
+        font-size: 22x;
+        line-height: 27px;
     }
 
-    .ul#scene li.layer-name {
-        text-align: center;
-        font-size: 22px;
-        line-height:27px;
-        text-transform: uppercase;
-        color: white;
-        width: 100%;
-        }
-
-    .ul#scene li.layer-title {
-        text-align: center;
+    .ul#scene li.title {
         font-size: 20px;
         line-height: 25px;
         margin-top: 40px;
-        text-transform: uppercase;
-        color: white;
-        width: 100%;
     }
 
     .btn {
