@@ -194,7 +194,7 @@ ol li {
 
 /*HELPER CLASS END*/
 
-/* "*" means anything within the website gets selected */
+                                                                                /* "*" means anything within the website gets selected */
 * {
     box-sizing: border-box;
     outline: 0;
@@ -221,7 +221,7 @@ header.sticky {
     background: rgba(0,0,0,0.85);
     transform: translateY(-500%);
     transition: 0.2s;
-    z-index: 5;                     /* LAYERS. think about in photoshop. 5 = 5th layer */
+    z-index: 5;                                                                 /* LAYERS. think about in photoshop. 5 = 5th layer */
 }
 
 body.scroll header.sticky {
@@ -232,7 +232,7 @@ body.scroll header.sticky {
     max-width: 1200px;
     margin: auto;
     position: relative;
-    padding: 7px 0;     /* padding: (top+bottom) (left+right)*/
+    padding: 7px 0;                                                              /* padding: (top+bottom) (left+right)*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -363,7 +363,7 @@ h2.sub-title::after {
     background: #000000;
     content: "";
     width: 100px;
-    margin: 30px auto 0 auto; /* 30 on top, auto on left, 0 on bottom, auto on right */
+    margin: 30px auto 0 auto;                                                /* 30 on top, auto on left, 0 on bottom, auto on right */
 }
 /* Masonry js styles end */
 
@@ -506,7 +506,6 @@ footer h1 {
         bottom: 0;
         background: rgba(0,0,0,0.72);
         z-index: 5;
-        display: none;
     }
 
     .main-overlay::after {
