@@ -512,7 +512,7 @@ footer h1 {
         left: 0;
         bottom: 0;
         background: rgba(0,0,0,0.72);
-        z-index: 5;
+        z-index: 6;
         display: none;
     }
 
@@ -539,10 +539,6 @@ footer h1 {
         z-index: 30;
         transform: translate3d(-100%, 0, 0);
         transition: 0.3s;
-    }
-
-    .nav-wrapper {
-        z-index: 5;
     }
 
     nav.nav-wrapper ul li {
@@ -604,6 +600,10 @@ footer h1 {
         font-size: 15px;
         line-height: 20px;
         padding: 10px 0;
+    }
+
+    div.grid {
+        width: initial !important;
     }
 
     h2.sub-title {
