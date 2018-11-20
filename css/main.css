@@ -501,7 +501,7 @@ footer h1 {
         display: block;
         z-index: 10;
         position: absolute;
-        right: 10px;
+        right: 20px;
         top: 15px;
     }
 
@@ -524,7 +524,7 @@ footer h1 {
         content: "";
         position: fixed;
         top: 10px;
-        right: 10px;
+        right: 20px;
         z-index: 20;
     }
 
